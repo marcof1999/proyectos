@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+    <h1>Complete el siguiente formulario</h1>
+    </header>
+    
+ <section>
+       <form action="codigo.php" class="espaciado">
+           
+            
+             <article class="articulo">
+                <h2>DATOS PERSONALES</h2><br>
+                <div class="cajita">
+                    <label>Nombre: </label>
+                            <input type="text" name="Nombre" value="" placeholder="Nombre" maxlength="15"><br>
+                </div>
+                   <div class="cajita"> <label>Apellido: </label>
+                            <input type="text" name="Nombre" value="" placeholder="apellido" maxlength="15"><br>
+                    </div> 
+                    <div class="cajita"><label> Genero:</label>
+                        <select>
+                            <option value="masculino"> Masculino </option>
+                            <option value="femenino"> Femenino </option>
+                            <option value="otro"> Otro </option>
+                        </select>
+                    </div>
+             </article>
+
+            <article class="articulo">
+                <h2>DATOS DE INTERES</h2><br>
+
+                    <div class="cajita"><label>Comida preferida:</label>
+                        <select name="select">
+                            <option value="milanesa">Milanesa</option>
+                            <option value="milanesa con ensalada">Milanesa con ensalada</option>
+                            <option value="milanesa con pure">Milanesa con pure</option>
+                            <option value="sanguche de milanesa">sanguche de milanesa</option>
+                            <option value="milanesa de soja">Milanesa de soja</option>
+                            <option value="milanesa de berenjena">Milanesa de berenjena</option>
+                            <option value="otras comidas">otras comidas</option>
+                        </select> <br>
+                    </div>
+
+                    <div class="cajita">
+                        <label>Tenes mascotas?:</label>
+                                <input type="radio" name="respuesta" value="si"> Si
+                                <input type="radio" name="respuesta" value="no"> No <br>
+                    </div>
+
+                    <div class="cajita">
+                        <label>Cómo se llama?:</label>
+                        <input type="text">
+
+                    </div>
+
+                    <div class="cajita">
+                    <label>Cual es tu color preferido?:</label>
+                            <input type="color" name="color"><br>
+                    </div>
+                    
+                    <div class="cajita">
+                     <label> Elegir un destino turistico del extranjero que le gustaria visitar:</label>
+
+                        <select name="select">
+                            <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            <option value="Miami">Miami</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Roma">Roma</option>
+                            <option value="Amsterdam">Amsterdam</option>
+                            <option value="Londres">Londres</option>
+                        </select>
+                    </div>
+
+            </article>
+
+        </form>
+ </section>
+</body>
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+body{
+    background: linear-gradient(45deg, rgba(235,231,108,1) 33%, rgba(255,151,223,1) 89%);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: underline 3px ;
+}
+input {
+    background-color: #EBE76C;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-color: black;
+    background-color: transparent;
+
+}
+label {
+    
+    margin-right: 10px;
+}
+select {
+    background-color: #EBE76C;
+    margin-left: 10px;
+    border-color: black;
+    background-color: transparent;
+
+}
+header {
+    margin: 20px;
+
+
+    text-align: center;
+}
+form {
+    width: 800px;
+
+}
+.espaciado {
+    margin: 1px;
+
+    border: 5px black solid
+}
+.articulo{
+    margin: 20px;
+    text-align: center;
+}
+.cajita {
+    margin: 30px;
+    text-align: center;
+}
+section {
+    margin-left: 250px;
+}
