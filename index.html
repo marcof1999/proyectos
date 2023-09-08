@@ -12,19 +12,21 @@
     </header>
     
  <section>
-       <form action="codigo.php" class="espaciado">
+       <form action="datos.php" method="post" class="espaciado">
            
             
              <article class="articulo">
                 <h2>DATOS PERSONALES</h2><br>
                 <div class="cajita">
-                    <label>Nombre: </label>
-                            <input type="text" name="Nombre" value="" placeholder="Nombre" maxlength="15"><br>
+                    <label>* Nombre: </label>
+                            <input type="text" required name="Nombre" value="" placeholder="Nombre" maxlength="15"><br>
                 </div>
-                   <div class="cajita"> <label>Apellido: </label>
-                            <input type="text" name="Nombre" value="" placeholder="apellido" maxlength="15"><br>
+                 <div class="cajita">
+                     <label>* Apellido: </label>
+                            <input type="text" required name="Apellido" value="" placeholder="apellido" maxlength="15"><br>
                     </div> 
-                    <div class="cajita"><label> Genero:</label>
+                    <div class="cajita">
+                     <label> Genero:</label>
                         <select>
                             <option value="masculino"> Masculino </option>
                             <option value="femenino"> Femenino </option>
@@ -38,13 +40,13 @@
 
                     <div class="cajita"><label>Comida preferida:</label>
                         <select name="select">
-                            <option value="milanesa">Milanesa</option>
-                            <option value="milanesa con ensalada">Milanesa con ensalada</option>
-                            <option value="milanesa con pure">Milanesa con pure</option>
-                            <option value="sanguche de milanesa">sanguche de milanesa</option>
-                            <option value="milanesa de soja">Milanesa de soja</option>
-                            <option value="milanesa de berenjena">Milanesa de berenjena</option>
-                            <option value="otras comidas">otras comidas</option>
+                            <option value="milanesa" name="milanesa">Milanesa</option>
+                            <option value="milanesa con ensalada" name="ensalada">Milanesa con ensalada</option>
+                            <option value="milanesa con pure" name="pure">Milanesa con pure</option>
+                            <option value="sanguche de milanesa" name="sanguche"> sanguche de milanesa</option>
+                            <option value="milanesa de soja" name="soja">Milanesa de soja</option>
+                            <option value="milanesa de berenjena" name="berenjena" >Milanesa de berenjena</option>
+                            <option value="otras comidas" name="otras">otras comidas</option>
                         </select> <br>
                     </div>
 
@@ -62,7 +64,7 @@
 
                     <div class="cajita">
                     <label>Cual es tu color preferido?:</label>
-                            <input type="color" name="color"><br>
+                            <input type="text" name="colorname" placeholder="naranja"><br>
                     </div>
                     
                     <div class="cajita">
